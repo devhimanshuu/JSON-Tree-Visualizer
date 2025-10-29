@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+html, body, #root {
+  height: 100%;
+}
+
+/* Theme backgrounds */
+.app-bg {
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.dark .app-bg { 
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+.light .app-bg { 
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* Node highlight */
+.node-highlight { 
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.5);
+}

@@ -1,0 +1,17 @@
+{
+  "user": {
+    "id": 123,
+    "name": "Himanshu",
+    "address": {
+      "city": "Gwalior",
+      "state": "Madhya Pradesh",
+      "zip": null
+    },
+    "tags": ["dev", "student"],
+    "active": true
+  },
+  "items": [
+    { "name": "pen", "price": 10 },
+    { "name": "notebook", "price": 40 }
+  ]
+}
